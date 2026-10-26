@@ -1,0 +1,133 @@
+/**
+ * en.json — English translation strings for Hotel Maharajaa
+ */
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "Our Story",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "catering": "Catering",
+    "contact": "Contact",
+    "order": "Order on WhatsApp"
+  },
+  "hero": {
+    "h1": "Asli Dhaba Swaad,",
+    "h1b": "Seedha Aag Se.",
+    "sub": "Smoky tandoor. Slow-cooked dal. Veg and non-veg, served hot all day.",
+    "cta_order": "Order on WhatsApp",
+    "cta_menu": "See the Menu"
+  },
+  "diet_toggle": {
+    "both": "Both",
+    "veg": "Veg",
+    "nonveg": "Non-Veg"
+  },
+  "open_now": "Open Now",
+  "closed": "Closed",
+  "menu_page": {
+    "h1": "The Maharajaa Menu",
+    "search": "Search dishes…",
+    "spice_label": "Spice Level",
+    "add": "Add",
+    "added": "Added",
+    "sold_out": "Sold Out Today",
+    "popular": "Popular",
+    "empty": "No dishes match your filters.",
+    "reset": "Reset Filters",
+    "order_tray": {
+      "title": "Your Order",
+      "empty": "Nothing here yet. Add some dishes!",
+      "name_placeholder": "Your name",
+      "note_placeholder": "Any special instructions…",
+      "type_dinein": "Dine-in",
+      "type_pickup": "Pickup",
+      "send": "Send Order on WhatsApp",
+      "copy": "Copy Order Text",
+      "total": "Total"
+    }
+  },
+  "about": {
+    "h1": "Cooked with Fire. Served with Respect.",
+    "chapter1_title": "Born on the Highway",
+    "chapter2_title": "The Kitchen",
+    "chapter3_title": "The People"
+  },
+  "gallery": {
+    "h1": "Peek Inside the Dhaba",
+    "filters": {
+      "all": "All",
+      "food": "Food",
+      "dining": "Dining Area",
+      "kitchen": "Kitchen",
+      "events": "Events"
+    }
+  },
+  "reviews": {
+    "h1": "Loved by Hungry Locals",
+    "cta_review": "Leave a Google Review",
+    "based_on": "Based on"
+  },
+  "order": {
+    "h1": "Hungry? Order in 3 Taps.",
+    "card_order": "Order Food",
+    "card_reserve": "Reserve a Table",
+    "card_call": "Call Us",
+    "reserve_form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "date": "Date",
+      "time": "Preferred Time",
+      "guests": "Number of Guests",
+      "note": "Special Note (optional)",
+      "submit": "Reserve via WhatsApp"
+    }
+  },
+  "catering": {
+    "h1": "Party Ka Poora Swaad",
+    "sub": "Big Table. Bigger Flavour. Let us cook, you celebrate.",
+    "quote_form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "event_type": "Event Type",
+      "date": "Event Date",
+      "guests": "Number of Guests",
+      "veg_split": "Veg / Non-Veg Split",
+      "area": "Event Area / Location",
+      "note": "Additional Notes",
+      "submit": "Get a Quote",
+      "success": "Your enquiry has been sent! We'll get back to you soon."
+    }
+  },
+  "contact": {
+    "h1": "Come Hungry. We Are Easy to Find.",
+    "get_directions": "Get Directions",
+    "call": "Call Us",
+    "whatsapp": "WhatsApp",
+    "hours_today": "Today",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "faq": {
+    "h1": "Frequently Asked Questions"
+  },
+  "footer": {
+    "made_by": "Made with ❤️ by Revox",
+    "rights": "All rights reserved.",
+    "fssai": "FSSAI Licence"
+  },
+  "common": {
+    "veg": "Veg",
+    "nonveg": "Non-Veg",
+    "spice": "Spice",
+    "price": "Price",
+    "close": "Close",
+    "back": "Back",
+    "loading": "Loading…"
+  }
+}
