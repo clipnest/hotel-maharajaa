@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { useStore } from '@/lib/store'
+import { asset } from '@/lib/utils/asset'
 
 type Category = 'all' | 'food' | 'dining' | 'menu'
 
@@ -196,7 +197,7 @@ export function GalleryContent() {
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-900">
                 <img
-                  src={item.src}
+                  src={asset(item.src)}
                   alt={item.titleEn}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -251,7 +252,7 @@ export function GalleryContent() {
           >
             <div className="relative flex-1 bg-black flex items-center justify-center min-h-[300px] max-h-[65vh] overflow-hidden">
               <img
-                src={lbItem.src}
+                src={asset(lbItem.src)}
                 alt={lbItem.titleEn}
                 className="max-h-[65vh] w-auto max-w-full object-contain mx-auto"
               />
@@ -271,7 +272,7 @@ export function GalleryContent() {
                 </p>
               </div>
               <a
-                href={lbItem.src}
+                href={asset(lbItem.src)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 px-4 py-2 text-xs font-semibold rounded-pill bg-white/10 hover:bg-white/20 text-cream border border-white/20 transition-all"

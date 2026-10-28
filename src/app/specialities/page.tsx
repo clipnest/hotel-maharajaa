@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { business } from '@/lib/data/business'
+import { asset } from '@/lib/utils/asset'
 
 export const metadata: Metadata = {
   title: 'Specialities & Signature Thalis | Hotel Maharajaa Sinnar',
@@ -117,7 +118,7 @@ export default function SpecialitiesPage() {
             >
               <div className="relative h-64 sm:h-72 w-full overflow-hidden bg-stone-900">
                 <img
-                  src={item.img}
+                  src={asset(item.img)}
                   alt={`${item.name} at Hotel Maharajaa Sinnar`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />

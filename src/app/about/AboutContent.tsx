@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useStore } from '@/lib/store'
+import { asset } from '@/lib/utils/asset'
 import { useScrollReveal } from '@/lib/utils/useScrollReveal'
 
 const CHAPTERS = [
@@ -79,7 +80,7 @@ export function AboutContent() {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="rounded-2xl overflow-hidden border border-white/10 relative h-72 shadow-xl group">
             <img
-              src="/images/restaurant/img_01.jpg"
+              src={asset('/images/restaurant/img_01.jpg')}
               alt="Hotel Maharajaa Highway Facade"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -91,7 +92,7 @@ export function AboutContent() {
           </div>
           <div className="rounded-2xl overflow-hidden border border-white/10 relative h-72 shadow-xl group">
             <img
-              src="/images/restaurant/img_06.jpg"
+              src={asset('/images/restaurant/img_06.jpg')}
               alt="Hotel Maharajaa Family Dining Hall"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />

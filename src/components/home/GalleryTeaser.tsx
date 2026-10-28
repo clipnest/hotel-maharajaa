@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useStore } from '@/lib/store'
+import { asset } from '@/lib/utils/asset'
 
 const TEASER_PHOTOS = [
   {
@@ -74,7 +75,7 @@ export function GalleryTeaser() {
               aria-label={`View photo: ${item.labelEn}`}
             >
               <img
-                src={item.src}
+                src={asset(item.src)}
                 alt={item.labelEn}
                 loading="lazy"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

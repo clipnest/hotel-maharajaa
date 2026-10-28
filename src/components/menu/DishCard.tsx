@@ -1,6 +1,7 @@
 'use client'
 
 import { useStore } from '@/lib/store'
+import { asset } from '@/lib/utils/asset'
 import type { Dish } from '@/lib/data/menu'
 
 interface DishCardProps {
@@ -49,7 +50,7 @@ export function DishCard({ dish, compact }: DishCardProps) {
         {dish.photo ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={dish.photo}
+            src={asset(dish.photo)}
             alt={`${name} — ${diet === 'veg' ? 'Vegetarian' : 'Non-vegetarian'} dish at Hotel Maharajaa`}
             className={[
               'w-full h-full object-cover',

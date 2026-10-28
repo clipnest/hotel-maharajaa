@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { business } from '@/lib/data/business'
+import { asset } from '@/lib/utils/asset'
 
 export const metadata: Metadata = {
   title: 'Best Dhaba on Nashik-Pune Highway | Hotel Maharajaa Sinnar',
@@ -132,7 +133,7 @@ export default function HighwayDhabaPage() {
         {/* Real Highway Facade Image Banner */}
         <div className="mb-16 rounded-2xl overflow-hidden border border-white/10 relative h-72 sm:h-96 shadow-2xl group">
           <img
-            src="/images/restaurant/img_01.jpg"
+            src={asset('/images/restaurant/img_01.jpg')}
             alt="Hotel Maharajaa highway frontage at night on Nashik Pune Highway Sinnar"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />

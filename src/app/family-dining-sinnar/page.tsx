@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { business } from '@/lib/data/business'
+import { asset } from '@/lib/utils/asset'
 
 export const metadata: Metadata = {
   title: 'Best Family Restaurant in Sinnar | Hotel Maharajaa',
@@ -97,7 +98,7 @@ export default function FamilyDiningPage() {
         {/* Real Dining Hall Photo */}
         <div className="mb-16 rounded-2xl overflow-hidden border border-white/10 relative h-72 sm:h-96 shadow-2xl group">
           <img
-            src="/images/restaurant/img_06.jpg"
+            src={asset('/images/restaurant/img_06.jpg')}
             alt="Family dining hall at Hotel Maharajaa Sinnar"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />

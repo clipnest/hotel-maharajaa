@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useStore } from '@/lib/store'
 import { business } from '@/lib/data/business'
+import { asset } from '@/lib/utils/asset'
 import { OpenNowBadge } from '@/components/ui/OpenNowBadge'
 
 export function VisitUs() {
@@ -35,7 +36,7 @@ export function VisitUs() {
         {/* Real photo showcase banner */}
         <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 relative h-64 sm:h-80 shadow-xl">
           <img
-            src="/images/restaurant/img_01.jpg"
+            src={asset('/images/restaurant/img_01.jpg')}
             alt="Hotel Maharajaa Restaurant Night View"
             className="w-full h-full object-cover"
           />
